@@ -19,9 +19,12 @@ https://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/24
 
 ・ROSのインストールは上田先生のros_setup_scripts_ubuntu20.04_serverを参考にしました。
 
-下のリンクからリポジトリに飛べます。
+なお、rosのパラメータは以下の通りです。
 
- https://github.com/ryuichiueda/ros_setup_scripts_Ubuntu20.04_server
+・ros distro: noetic
+
+・ros version : 1.15.13
+
 
 ・ノートPCを経由してインターネット接続する方法のリンク
 
@@ -31,3 +34,22 @@ https://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/24
 ・ラズパイにubuntuをインストールする方法のリンク
 
 　https://twitter.com/ryuichiueda/status/1250644188992962560
+
+・ubuntu20.04にrosをインストールする方法のリンク
+
+ https://github.com/ryuichiueda/ros_setup_scripts_Ubuntu20.04_server
+
+
+# 使用した物
+・Raspberry Pi4 Model B　× 1
+
+・マイクロSDカード（ラズパイ用） × 1
+
+・ラズパイ用の電源（端子はtype-c) × 1
+
+・ノートPC（Windows10 / 64bit) × 1
+
+・wifi環境（私は2.4GHzで通信）
+
+# 下準備
+

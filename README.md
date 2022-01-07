@@ -175,4 +175,4 @@ YouTubeのリンク
 
 # ライセンス
 
-LICENSE
+https://github.com/2daimehorisota/ros-test/blob/42a2daed710f48c0962ef54d8da02f072265ff48/LICENSE

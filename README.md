@@ -91,7 +91,7 @@ https://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/24
     $cd  ~/catkin_ws/src/ros-test/mypkg/scripts
     $ls
 で中に
-    "100times.py count.py twice.py" があることを確認してください。
+    `100times.py count.py twice.py` があることを確認してください。
  
 これで下準備は完了です。
    

@@ -175,3 +175,4 @@ YouTubeのリンク
 
 # ライセンス
 
+LICENSE

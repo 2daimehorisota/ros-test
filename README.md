@@ -82,9 +82,9 @@ https://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/24
      $ echo $ROS_PACKAGE_PATH
      /home/ubuntu/catkin_ws/src:/opt/ros/noetic/share
  
-のようになっていれば成功です。
+catkin_ws/srcがあることを確認してください。
 
-最後に、ワークスペースにリポジトリをコピーし、ノードがあるか確認します。
+ワークスペースにリポジトリをコピーし、ノードがあるか確認します。
 
     $cd /catkin_ws/src
     $git clone git@github.com:2daimehorisota/ros-test.git
@@ -92,12 +92,31 @@ https://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/24
     $ls
 で中に
     `100times.py count.py twice.py` があることを確認してください。
+    
+ 最後にWSLで端末を４つ以上立ち上げ、全てラズパイにログインします。
  
 これで下準備は完了です。
    
-# 実行方法
+# count.pyの実行
 
-WSLで端末を４つ以上立ち上げ、全てラズパイにログインします。
+端末１で
+    $roscore
+を実行します。
+
+次に端末２で
+    $chmod +x count.py
+    $rosrun mypkg count.py
+ を実行します。
+
+端末３で
+    $rostopic echo /count.up
+ を実行すると、端末３で1ずつカウントされる様子が確認できます。
+
+twice.pyと100times.pyを実行する際は端末３を停止させる`[ctrl] + [c]`
+
+もしくは１つ端末を増やすようにお願いします。 
+
+
 
 
    

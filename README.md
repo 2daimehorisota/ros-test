@@ -87,10 +87,13 @@ https://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/24
 最後に、ワークスペースにリポジトリをコピーし、ノードがあるか確認します。
 
     $cd /catkin_ws/src
-    $git clone
-
-
-   
+    $git clone git@github.com:2daimehorisota/ros-test.git
+    $cd  ~/catkin_ws/src/ros-test/mypkg/scripts
+    $ls
+で中に
+    100times.py count.py twice.py
+ があることを確認してください。
+ 
 これで下準備は完了です。
    
 # 実行方法

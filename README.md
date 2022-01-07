@@ -21,9 +21,8 @@ https://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/24
 
 なお、rosのパラメータは以下の通りです。
 
-・ros distro: noetic
-
-・ros version : 1.15.13
+    ros distro: noetic
+    ros version : 1.15.13
 
 
 ・ノートPCを経由してインターネット接続する方法のリンク

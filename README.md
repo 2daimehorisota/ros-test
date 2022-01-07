@@ -65,7 +65,7 @@ https://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/24
    コードの下の方（118行付近）にsource ~exportと始まるところがあります。   
    
    そこに
-     source /opt/ros/noetic/setup.bash
+       source /opt/ros/noetic/setup.bash
      source ~/catkin_ws/devel/setup.bash
      export ROS_MASTER_URI=http://localhost:11311
      export ROS_HOSTNAME=localhost

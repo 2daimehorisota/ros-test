@@ -70,7 +70,21 @@ https://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/24
        export ROS_MASTER_URI=http://localhost:11311
        export ROS_HOSTNAME=localhost
     
-   があるように修正してください。
+ があるように修正してください。
+
+(私のときは source ~/catkin_ws/devel/setup.bash のみ追加しました。）
    
-   （私のときは source ~/catkin_ws/devel/setup.bash のみ追加しました。）
+その後、
+      $cd /catkin_ws
+      $catkin_make
+      $source ~/.bashrc
+ をすると、
+      $ echo $ROS_PACKAGE_PATH
+      /home/ubuntu/catkin_ws/src:/opt/ros/noetic/share
+   
+   のようになっていれば成功です。
+   
+   これで下準備は完了です。
+   
+# 
    

@@ -56,8 +56,7 @@ https://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/24
     $cd ~/catkin_ws/src
     $catkin_init_workspace
   これでsrcにCMakeList.txtが作成されたはずです。
-    $ls
-  で確認してください。
+    `$ls`  で確認してください。
    
     $vi ~/.bashrc
 コードの下の方（118行付近）にsource ~exportと始まるところがあります。   
@@ -100,16 +99,22 @@ catkin_ws/srcがあることを確認してください。
 # count.pyの実行
 
 端末１で
+
     $roscore
+
 を実行します。
 
 次に端末２で
+
     $chmod +x count.py
     $rosrun mypkg count.py
- を実行します。
+
+を実行します。
 
 端末３で
+
     $rostopic echo /count.up
+ 
  を実行すると、端末３で1ずつカウントされる様子が確認できます。
 
 twice.pyと100times.pyを実行する際は端末３を停止させる`[ctrl] + [c]`

@@ -57,7 +57,21 @@ https://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/24
     $catkin_init_workspace
    
    これでsrcにCMakeList.txtが作成されたはずです。
-   "$ls"
+    $ls
    で確認してください。
    
+    $vi ~/.bashrc
+    
+    コードの下の方（118行付近）にsource ~exportと始まるところがあります。
+    
+    そこに
+    
+     source /opt/ros/noetic/setup.bash
+     source ~/catkin_ws/devel/setup.bash
+     export ROS_MASTER_URI=http://localhost:11311
+     export ROS_HOSTNAME=localhost
+    
+   があるように修正してください。
+   
+   （私のときは source ~/catkin_ws/devel/setup.bash のみ追加しました。）
    

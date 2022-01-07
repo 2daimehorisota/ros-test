@@ -75,16 +75,16 @@ https://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/24
 (私のときは source ~/catkin_ws/devel/setup.bash のみ追加しました。）
    
 その後、
-      $cd /catkin_ws
-      $catkin_make
-      $source ~/.bashrc
- をすると、
-      $ echo $ROS_PACKAGE_PATH
-      /home/ubuntu/catkin_ws/src:/opt/ros/noetic/share
+    $cd /catkin_ws
+    $catkin_make
+    $source ~/.bashrc
+ をすると,
+     $ echo $ROS_PACKAGE_PATH
+     /home/ubuntu/catkin_ws/src:/opt/ros/noetic/share
+ 
+のようになっていれば成功です。
    
-   のようになっていれば成功です。
-   
-   これで下準備は完了です。
+これで下準備は完了です。
    
 # 
    

@@ -114,7 +114,7 @@ catkin_ws/srcがあることを確認してください。
 
 端末３で
 
-    $rostopic echo /count.up
+    $rostopic echo /count_up
  
  を実行すると、端末３で1刻みでカウントされる様子が確認できます。
 

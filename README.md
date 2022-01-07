@@ -174,5 +174,6 @@ twice.pyと同時に動かせますが、本説明ではtwice.pyは停止させ�
 YouTubeのリンク
 
 # ライセンス
+BSD3.0
 
 https://github.com/2daimehorisota/ros-test/blob/42a2daed710f48c0962ef54d8da02f072265ff48/LICENSE

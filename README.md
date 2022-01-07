@@ -77,14 +77,25 @@ https://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/24
     $catkin_make
     $source ~/.bashrc
     
- をすると,
+ でビルドします。確認として、
  
      $ echo $ROS_PACKAGE_PATH
      /home/ubuntu/catkin_ws/src:/opt/ros/noetic/share
  
 のようになっていれば成功です。
+
+最後に、ワークスペースにリポジトリをコピーし、ノードがあるか確認します。
+
+    $cd /catkin_ws/src
+    $git clone
+
+
    
 これで下準備は完了です。
    
-# 
+# 実行方法
+
+WSLで端末を４つ以上立ち上げ、全てラズパイにログインします。
+
+
    

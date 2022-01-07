@@ -51,4 +51,13 @@ https://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/24
 ・wifi環境（私は2.4GHzで通信）
 
 # 下準備
-
+   $cd
+   $mkdir -p catkin_ws/src
+   $cd ~/catkin_ws/src
+   $catkin_init_workspace
+   
+   これでsrcにCMakeList.txtが作成されたはずです。
+   "$ls"
+   で確認してください。
+   
+   

@@ -85,7 +85,7 @@ catkin_ws/srcがあることを確認してください。
 
 ワークスペースにリポジトリをコピーし、ノードがあるか確認します。
 
-    $cd /catkin_ws/src
+    $cd ~/catkin_ws/src
     $git clone git@github.com:2daimehorisota/ros-test.git
     $cd  ~/catkin_ws/src/ros-test/mypkg/scripts
     $ls

@@ -172,7 +172,9 @@ twice.pyと同時に動かせますが、本説明ではtwice.pyは停止させ�
 # 実際の動作の様子
 
 実際に動く様子を動画にしています。
-YouTubeのリンク
+
+・YouTubeのリンク
+
 https://www.youtube.com/watch?v=MVgvhaMdmvE
 
 

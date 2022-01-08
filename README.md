@@ -87,7 +87,7 @@ catkin_ws/srcがあることを確認してください。
 
     $cd ~/catkin_ws/src
     $git clone git@github.com:2daimehorisota/ros-test.git
-    $cd  ~/catkin_ws/src/ros-test/mypkg/scripts
+    $cd  ~/catkin_ws/src/ros-test/scripts
     $ls
 で中に
     `100times.py count.py twice.py` があることを確認してください。
@@ -106,7 +106,7 @@ catkin_ws/srcがあることを確認してください。
 
 次に端末２で
 
-    $cd  ~/catkin_ws/src/ros-test/mypkg/scripts
+    $cd  ~/catkin_ws/src/ros-test/scripts
     $chmod +x count.py
     $rosrun mypkg count.py
 
@@ -129,7 +129,7 @@ count.pyの出力メッセージを用いるため、count.pyを実行した上�
 
 端末４で
 
-    $cd  ~/catkin_ws/src/ros-test/mypkg/scripts
+    $cd  ~/catkin_ws/src/ros-test/scripts
     $chmod +x twice.py
     $rosrun mypkg twice.py
 
@@ -152,7 +152,7 @@ twice.pyと同時に動かせますが、本説明ではtwice.pyは停止させ�
 
 端末４で
 
-    $cd  ~/catkin_ws/src/ros-test/mypkg/scripts
+    $cd  ~/catkin_ws/src/ros-test/scripts
     $chmod +x 100times.py
     $rosrun mypkg 100times.py
 を実行します。

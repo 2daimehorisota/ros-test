@@ -108,8 +108,7 @@ catkin_ws/srcがあることを確認してください。
 
     $cd  ~/catkin_ws/src/ros-test/scripts
     $chmod +x count.py
-    $rosrun mypkg count.py
-
+    $rosrun ros-test count.py
 を実行します。
 
 端末３で
@@ -131,7 +130,7 @@ count.pyの出力メッセージを用いるため、count.pyを実行した上�
 
     $cd  ~/catkin_ws/src/ros-test/scripts
     $chmod +x twice.py
-    $rosrun mypkg twice.py
+    $rosrun ros-test twice.py
 
 を実行させます。
 
@@ -154,7 +153,7 @@ twice.pyと同時に動かせますが、本説明ではtwice.pyは停止させ�
 
     $cd  ~/catkin_ws/src/ros-test/scripts
     $chmod +x 100times.py
-    $rosrun mypkg 100times.py
+    $rosrun ros-test 100times.py
 を実行します。
 
 端末３を停止しているのなら、端末３で

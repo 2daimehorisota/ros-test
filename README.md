@@ -174,7 +174,7 @@ twice.pyと同時に動かせますが、本説明ではtwice.pyは停止させ�
 
 ・YouTubeのリンク
 
-https://www.youtube.com/watch?v=MVgvhaMdmvE
+https://youtu.be/Nkj6z6UZthI
 
 
 # ライセンス

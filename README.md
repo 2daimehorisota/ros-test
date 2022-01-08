@@ -72,7 +72,7 @@ https://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/24
 (私のときは source ~/catkin_ws/devel/setup.bash のみ追加しました。）
 その後、
 
-    $cd /catkin_ws
+    $cd ../
     $catkin_make
     $source ~/.bashrc
     
